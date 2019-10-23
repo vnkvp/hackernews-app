@@ -27,6 +27,9 @@ text-decoration: none;
 `
 export const StoryMeta = styled.div `
 font-style: italic;
+> span:firt-child {
+    margin-right: 10px;
+}
 > span:not(:first-child):before {
     content: '•'
     margin: 0 7px;
