@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
-    color: #2C498D;
+    color: #F46523;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -27,7 +27,9 @@ h1 {
 }
 img {
 width: 100%;
-max-height: 60vh;
+object-fit: contain;
+max-height: 300px;
+background-color: #F46523;
 }
 `
 export const StoriesContainerWrapper = styled.main `

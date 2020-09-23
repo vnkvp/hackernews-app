@@ -14,7 +14,7 @@ const StoriesContainer = () => {
 
     return <>
     <GlobalStyle />
-    <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-AaptImXE5Y4%2FWzjvqBS8HtI%2FAAAAAAAAxSs%2FBcCIwpWJszILkuEbDfKZhxQJwOAD7qV6ACLcBGAs%2Fs728-e100%2Fthe-hacker-news.jpg&f=1&nofb=1' alt ='logo'/>
+    <img src='https://apifriends.com/wp-content/uploads/2018/08/hacker-news-696x249.jpg' alt ='logo'/>
     <StoriesContainerWrapper data-test-id="stories-container">
      {storyIds.slice(0, count).map(storyId => (
         <Story storyId={storyId} key={storyId}/>
