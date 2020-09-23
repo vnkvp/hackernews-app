@@ -21,12 +21,13 @@ text-decoration: none;
 
 a {
 color: #2e2e2c;
-background-color: #f8dc3d;
+font-weight: 600;
 text-decoration: none;
 }
 `
 export const StoryMeta = styled.div `
-font-style: italic;
+display: flex;
+flex-direction: column;
 > span:firt-child {
     margin-right: 10px;
 }
@@ -39,7 +40,7 @@ font-weight: bold;
 }
 `
 export const StoryMetaElement = styled.span`
-font-weight: bold;
+font-weight: 400;
 color: ${props => props.color || 'red'};
 `
 

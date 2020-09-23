@@ -16,9 +16,9 @@ export const Story = ({ storyId }) => {
                 <StoryTitle><a href={story.url}>{story.title}</a></StoryTitle>
                 <StoryMeta>
                     <span data-testid="story-by" >
-                        <StoryMetaElement color="#000">By: </StoryMetaElement>{story.by}                    </span>
+                        <StoryMetaElement color="#333">by: </StoryMetaElement>{story.by}                    </span>
                     <span data-testid="story-time">
-                        <StoryMetaElement color="#000">Posted: </StoryMetaElement>{mapTime(story.time)}
+                        <StoryMetaElement color="#333">posted: </StoryMetaElement>{mapTime(story.time)}
                     </span>
                 </StoryMeta>
             </StoryWrapper>
